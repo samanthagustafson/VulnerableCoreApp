@@ -17,9 +17,6 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
-- task: AzureStaticWebApp@0
-  inputs:
-    restoreSolution: '$(solution)'
 
 - task: VSBuild@1
   inputs:
